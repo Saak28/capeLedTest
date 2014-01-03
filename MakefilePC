@@ -1,0 +1,7 @@
+obj-m += SaakLedTest.o
+
+all:
+	make -C /usr/src/linux-headers-3.11.0-14-generic M=$(PWD) modules
+
+clean:
+	make -C /usr/src/linux-headers-3.11.0-14-generic M=$(PWD) clean

@@ -1,0 +1,1 @@
+cmd_/home/saak/beagle/cape/capeLedTest/SaakLedTest.ko := arm-linux-gnueabi-ld -EL -r  -T /home/saak/beagle/linux-dev_3.8/KERNEL/scripts/module-common.lds --build-id  -o /home/saak/beagle/cape/capeLedTest/SaakLedTest.ko /home/saak/beagle/cape/capeLedTest/SaakLedTest.o /home/saak/beagle/cape/capeLedTest/SaakLedTest.mod.o
